@@ -1,0 +1,30 @@
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.children{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #69420f;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.children1{
+    height: 70px;
+    width: 100px;
+    background-color: #69420f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+}
