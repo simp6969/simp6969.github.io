@@ -1,0 +1,139 @@
+/* body {
+    background-image: url("./autumn-fall-maple-tree-foliage-autumn-leaves-sun-light-body-1920x1080-5908\ \(1\).jpg");
+ } */
+i:nth-child(1) {
+    color: orange;
+    font-size: 100px;
+    transform: rotate(45deg);
+    animation-delay: 0.1s;
+}
+i:nth-child(2) {
+    color: rgb(211, 177, 115);
+    font-size: 100px;
+    transform: rotate(80deg);
+    animation-delay: 9.2s;
+}
+i:nth-child(3) {
+    color: rgb(147, 107, 32);
+    font-size: 75px;
+    transform: rotate(135deg);
+    animation-delay: 3.5s;
+}
+i:nth-child(4) {
+    color: rgb(221, 170, 75);
+    font-size: 60px;
+    transform: rotate(135deg);
+    animation-delay: 6.4s;
+}
+i:nth-child(5) {
+    color: rgb(221, 170, 75);
+    font-size: 40px;
+    transform: rotate(45deg);
+    animation-delay: 4.4s;
+}
+i:nth-child(5) {
+    color: rgb(225, 164, 52);
+    font-size: 40px;
+    transform: rotate(45deg);
+    animation-delay: 8.6s;
+}
+i:nth-child(6) {
+    color: rgb(226, 178, 90);
+    font-size: 70px;
+    transform: rotate(95deg);
+    animation-delay: 2.7s;
+}
+i:nth-child(7) {
+    color: rgb(221, 170, 75);
+    font-size: 40px;
+    transform: rotate(45deg);
+    animation-delay: 3.7s;
+}
+i:nth-child(8) {
+    color: rgb(225, 164, 52);
+    font-size: 70px;
+    transform: rotate(-25deg);
+    animation-delay: 1.3s;
+}
+i:nth-child(9) {
+    color: rgb(226, 178, 90);
+    font-size: 70px;
+    transform: rotate(95deg);
+    animation-delay: 0.1s;
+}
+.n1:nth-child(10) {
+    color: rgb(151, 98, 0);
+    font-size: 100px;
+    transform: rotate(69deg);
+    animation-delay: 1.4s;
+}
+i:nth-child(11) {
+    color: rgb(105, 76, 22);
+    font-size: 100px;
+    transform: rotate(80deg);
+    animation-delay: 9.2s;
+}
+i:nth-child(12) {
+    color: rgb(147, 107, 32);
+    font-size: 75px;
+    transform: rotate(120deg);
+    animation-delay: 3.5s;
+}
+i:nth-child(13) {
+    color: rgb(134, 97, 28);
+    font-size: 80px;
+    transform: rotate(135deg);
+    animation-delay: 6.4s;
+}
+i:nth-child(14) {
+    color: rgb(221, 170, 75);
+    font-size: 45px;
+    transform: rotate(49deg);
+    animation-delay: 4s;
+}
+i:nth-child(15) {
+    color: rgb(225, 164, 52);
+    font-size: 69px;
+    transform: rotate(69deg);
+    animation-delay: 8.6s;
+}
+i:nth-child(16) {
+    color: rgb(122, 91, 34);
+    font-size: 70px;
+    transform: rotate(95deg);
+    animation-delay: 2.7s;
+}
+i:nth-child(17) {
+    color: rgb(221, 170, 75);
+    font-size: 40px;
+    transform: rotate(45deg);
+    animation-delay: 1.7s;
+}
+i:nth-child(18) {
+    color: rgb(107, 76, 19);
+    font-size: 70px;
+    transform: rotate(-69deg);
+    animation-delay: 1.0s;
+}
+i:nth-child(19) {
+    color: rgb(121, 88, 26);
+    font-size: 60px;
+    transform: rotate(95deg);
+    animation-delay: 1.9s;
+}
+div{
+    margin-top: -300px;
+}
+i{
+    width: 21%;
+    animation: anim 10s ease-in-out infinite;
+    transform:  translateY(-120%) rotate(0deg);
+}
+@keyframes anim{
+    0%{
+        transform:  translateY(-120%) rotate(0deg);
+    }
+    100%{
+        transform: translateY(130vh) rotate(-360deg);
+    }
+}

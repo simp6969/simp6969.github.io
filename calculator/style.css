@@ -1,0 +1,144 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent_div {
+  font-size: 50px;
+  color: white;
+  height: 725px;
+  width: 472px;
+  border-radius: 10px;
+  background-color: #464647;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.floor_1 {
+  height: 120px;
+  display: flex;
+  font-size: 70px;
+  margin: 7px;
+  justify-content: flex-end;
+}
+.floor_2 {
+  display: flex;
+  gap: 4px;
+}
+.dark_button {
+  background-color: #777677;
+  width: 115px;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms;
+}
+.yellow_button {
+  background-color: #ff9f0a;
+  transition: all 300ms;
+  width: 115px;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #464647;
+  margin-top: -1.85px;
+}
+.gray_button {
+  width: 115px;
+  height: 115px;
+  transition: all 300ms;
+  background-color: #595959;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark_button:hover {
+  background-color: #9a9a9a;
+}
+.yellow_button:hover {
+  background-color: #ffb74c;
+}
+.gray_button:hover {
+  background-color: #727272;
+}
+.floor_3 {
+  display: flex;
+  gap: 4px;
+}
+.floor_4 {
+  display: flex;
+  gap: 4px;
+}
+.floor_5 {
+  display: flex;
+  gap: 4px;
+}
+.floor_6 {
+  display: flex;
+  gap: 4px;
+}
+.da_zero {
+  width: 234px;
+  height: 115px;
+  background-color: #777677;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.da_zero:hover {
+  background-color: #9a9a9a;
+}
+@media only screen and (max-width: 510px) {
+  .parent_div {
+    font-size: 25px;
+    color: white;
+    height: 370px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #464647;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  .da_zero {
+    width: 124px;
+    height: 60px;
+    background-color: #777677;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dark_button {
+    background-color: #585859;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .yellow_button {
+    background-color: #ff9f0a;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #464647;
+  }
+  .gray_button {
+    width: 60px;
+    height: 60px;
+    background-color: #777677;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .floor_1 {
+    height: 40px;
+    display: flex;
+    font-size: 35px;
+    justify-content: flex-end;
+  }
+}

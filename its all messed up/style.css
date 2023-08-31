@@ -1,0 +1,45 @@
+.child_div {
+  width: 120px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff;
+  border-radius: 10px;
+  transition: all 400ms;
+  font-size: 20px;
+  color: rgb(30, 0, 255);
+}
+.parent_div {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+body {
+  background-color: #004c99;
+}
+.main {
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+}
+.child_div:hover {
+  width: 130px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b0e0e6;
+  border-radius: 10px;
+}
+
+/* Primary Blue: #007BFF
+Light Blue: #B0E0E6
+Dark Blue: #004C99
+Accent Yellow: #FFD700 */

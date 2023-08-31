@@ -1,0 +1,18 @@
+.background{
+    background-image: url(https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 100vh;
+    width: 100vw;
+}
+  .rocket {
+    color: rgb(255, 113, 113);
+    font-size: 150px;
+    margin-top: 700px;
+    transition-property: all;
+    transition-duration: 3000ms;
+  }
+  .rocket:active {
+    color: white;
+    margin-top: 0;
+    margin-left: 2300px;
+    font-size: 100px;
+  }

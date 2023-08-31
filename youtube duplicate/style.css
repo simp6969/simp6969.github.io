@@ -1,0 +1,16 @@
+.outer_style {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-left: 150px;
+  align-content: flex-start;
+}

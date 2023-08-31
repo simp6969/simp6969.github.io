@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="parent_div">
+      <div id="inputs" class="floor_1">0</div>
+      <div class="floor_2">
+        <div onclick="ac()" class="dark_button">AC</div>
+        <div onclick="work(this.id)" id="minus" class="dark_button">+/-</div>
+        <div onclick="work(this.id)" id="%" class="dark_button">%</div>
+        <div onclick="work(this.id)" id="÷" class="yellow_button">÷</div>
+      </div>
+      <div class="floor_3">
+        <div onclick="num(this.id)" id="7" class="gray_button">7</div>
+        <div onclick="num(this.id)" id="8" class="gray_button">8</div>
+        <div onclick="num(this.id)" id="9" class="gray_button">9</div>
+        <div onclick="work(this.id)" id="x" class="yellow_button">x</div>
+      </div>
+      <div class="floor_4">
+        <div onclick="num(this.id)" id="4" class="dark_button">4</div>
+        <div onclick="num(this.id)" id="5" class="dark_button">5</div>
+        <div onclick="num(this.id)" id="6" class="dark_button">6</div>
+
+        <div onclick="work(this.id)" id="-" class="yellow_button">-</div>
+      </div>
+      <div class="floor_5">
+        <div onclick="num(this.id)" id="1" class="dark_button">1</div>
+        <div onclick="num(this.id)" id="2" class="dark_button">2</div>
+        <div onclick="num(this.id)" id="3" class="dark_button">3</div>
+        <div onclick="work(this.id)" id="+" class="yellow_button">+</div>
+      </div>
+      <div class="floor_6">
+        <div onclick="num(this.id)" id="0" class="da_zero">0</div>
+        <div onclick="num(this.id)" id="." class="gray_button">.</div>
+        <div onclick="equal()" class="yellow_button">=</div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

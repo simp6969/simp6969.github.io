@@ -1,0 +1,32 @@
+div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    animation-name: box;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes box {
+    0%{
+        transform: translate(-300px, 0px);
+    }
+    25%{
+        transform: translate(0px, 0px);
+    }
+    50%{
+        transform: translate(0px,300px);
+    }
+    75%{
+        transform: translate(-300px, 300px);
+    }
+    100%{
+        transform: translate(-300px, 0px);
+    }
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

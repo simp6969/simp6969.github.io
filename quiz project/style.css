@@ -1,0 +1,46 @@
+.quizwindow {
+  height: 300px;
+  width: 300px;
+  background-color: #a47756;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: all;
+  transition-duration: 200ms;
+  border-radius: 10px;
+  margin-top: -240px;
+}
+.project-div {
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6f4e37;
+  gap: 20px;
+  padding-left: 100px;
+}
+.quizwindow:hover {
+  height: 320px;
+  width: 320px;
+  background-color: #8d6243;
+}
+.header {
+  text-align: center;
+  color: #a47756;
+  font-size: 30px;
+}
+body {
+  background-color: #6f4e37;
+  overflow: hidden;
+}
+button {
+  height: 50px;
+  width: 100px;
+  background-color: #8d6243;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 10px;
+  color: rgb(232, 175, 105);
+}
